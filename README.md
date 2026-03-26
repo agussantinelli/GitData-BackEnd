@@ -1,63 +1,65 @@
 <div align="center">
 
-# ⚡ GIT DATA ⚡
-### *The Ultimate GitHub Profile Intelligence Engine*
+<h1 align="center">🛡️ Git Data – BackEnd</h1>
 
-[![Vue 3](https://img.shields.io/badge/Frontend-Vue%203-42b883?style=for-the-badge&logo=vue.js)](https://vuejs.org/)
-[![NestJS](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs)](https://nestjs.com/)
-[![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Clean Architecture](https://img.shields.io/badge/Architecture-Clean-white?style=for-the-badge&logo=architecture)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+<p align="center">
+  <a href="https://github.com/agussantinelli/GitData-BackEnd" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/⚙️%20Repo%20Backend-GitData-E0234E?style=for-the-badge&logo=github&logoColor=white" alt="Repo Backend"/>
+  </a>
+  <a href="https://github.com/agussantinelli/GitData-FrontEnd" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/💻%20Repo%20Frontend-Vue%203-42b883?style=for-the-badge&logo=vue.js&logoColor=white" alt="Repo Frontend"/>
+  </a>
+</p>
 
-**Git Data** es una plataforma de análisis avanzado diseñada para desglosar el "ADN" de cualquier perfil de GitHub. Utilizando algoritmos de curado de datos y una interfaz de estética *hacker* neón, transforma JSONs crudos en inteligencia accionable.
+<p align="center">
+  <a href="https://github.com/agussantinelli" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/👤%20Agustín%20Santinelli-agussantinelli-000000?style=for-the-badge&logo=github&logoColor=white" alt="Agus"/>
+  </a>
+  <a href="https://github.com/martin-ratti" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/👤%20Martín%20Ratti-martin--ratti-000000?style=for-the-badge&logo=github&logoColor=white" alt="Martín"/>
+  </a>
+</p>
 
-[Explorar Demo](#) • [Reportar Bug](https://github.com/user/git-data/issues) • [Documentación API](#)
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-10.0.0-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS Badge"/>
+  <img src="https://img.shields.io/badge/Node.js-20.0.0-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node Badge"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.0.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TS Badge"/>
+  <img src="https://img.shields.io/badge/Octokit-SDK-white?style=for-the-badge&logo=github&logoColor=black" alt="Octokit Badge"/>
+  <img src="https://img.shields.io/badge/Zod-Validation-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod Badge"/>
+  <img src="https://img.shields.io/badge/Vitest-Testing-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest Badge"/>
+  <img src="https://img.shields.io/badge/Swagger-API%20Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger Badge"/>
+  <img src="https://img.shields.io/badge/Redis-Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis Badge"/>
+</p>
+
+**GitData-BackEnd** es el motor analítico de Git Data. Construido bajo los principios de **Clean Architecture**, procesa y cura datos masivos de la API de GitHub para generar inteligencia sobre perfiles técnicos.
 
 </div>
 
 ---
 
-## 🚀 Misión y Visión
-El proyecto nace de la necesidad de ir más allá de las estadísticas superficiales. **Git Data** implementa el *Radar de ADN* y *The Hidden Gem* para identificar el verdadero impacto de un desarrollador en el ecosistema open source, todo bajo una arquitectura robusta, testeable y escalable.
+## 🏗️ Arquitectura y Diseño
+El servidor está diseñado para ser agnóstico a la infraestructura, centrando su valor en el **Dominio**.
+
+* **Entidades/Dominio:** Lógica pura para el cálculo del "Radar de ADN" y "The Hidden Gem".
+* **Casos de Uso:** Orquestación de servicios (ej. `AnalyzeUserProfile`).
+* **Infraestructura:** Adaptadores para Octokit (GitHub API), caché de datos y persistencia.
+* **Seguridad:** Implementación de Rate Limiting y validación estricta con Zod.
 
 ---
 
-## 🏗️ Arquitectura del Sistema
-El repositorio está estructurado como un **NPM Monorepo**, garantizando coherencia técnica entre el cliente y el servidor.
-
-### 🧩 Core Principles
-* **Clean Architecture:** Separación estricta de capas (Dominio, Casos de Uso, Infraestructura).
-* **Type Safety:** Uso de **Zod** para validación de esquemas y TypeScript estricto en todo el flujo.
-* **Hacker Aesthetic:** UI basada en **PrimeVue** con overrides de **SCSS** para un look oscuro y neón.
-
-
+## 🚀 Características Core
+* **Procesamiento Big O Optimizado:** Algoritmos de curado de JSON para manejar repositorios extensos sin latencia.
+* **Estrategia de Caché:** Mitigación de límites de la API de GitHub mediante capas de caché temporales.
+* **Documentación Proactiva:** Swagger UI integrado para pruebas rápidas de los endpoints.
 
 ---
 
-## 🛠️ Stack Tecnológico
-
-| Componente | Tecnología Principal | Librerías Clave |
-| :--- | :--- | :--- |
-| **Frontend** | Vue 3 (Composition API) | PrimeVue, Pinia, ECharts, SCSS |
-| **Backend** | NestJS | Octokit (GitHub SDK), Cache Manager, Zod |
-| **Testing** | Vitest / Cypress | Testing Library, Supertest |
-| **DevOps** | Docker | GitHub Actions, Husky (Git Hooks) |
-
----
-
-## 📦 Estructura del Proyecto
+## 📦 Estructura de Capas
 
 ```text
-git-data/
-├── apps/
-│   ├── api/                # Backend NestJS (Clean Architecture)
-│   │   ├── src/
-│   │   │   ├── domain/     # Entidades y lógica pura (Radar de ADN)
-│   │   │   ├── use-cases/  # Orquestación de lógica de negocio
-│   │   │   └── infra/      # Controladores, API de GitHub, DB
-│   └── web/                # Frontend Vue 3
-│       ├── src/
-│       │   ├── components/ # UI Atoms/Molecules (PrimeVue)
-│       │   ├── composables/# Lógica de estado y side-effects
-│       │   └── styles/     # Temas Hacker (Neon SCSS)
-├── packages/               # Tipos y utilidades compartidas
-└── package.json            # Gestión de Workspaces
+src/
+├── domain/          # Lógica de Negocio Pura (Entities, Value Objects)
+├── use-cases/       # Servicios de Aplicación (Lógica de Orquestación)
+├── infrastructure/  # Controladores, Módulos Externos, API GitHub
+├── shared/          # DTOs, Decoradores, Excepciones Globales
+└── main.ts          # Punto de entrada de la aplicación
