@@ -37,6 +37,23 @@
 
 ---
 
+## 🎯 Objetivo y Propósito
+
+### El "Por Qué" de Git Data
+En un ecosistema saturado de métricas vanidosas (como el número de contribuciones o "streaks"), los reclutadores y líderes técnicos a menudo pierden de vista el **impacto real** y la **calidad técnica** de un desarrollador. 
+
+**Git Data** nace para resolver la opacidad en el análisis de perfiles de GitHub, transformando datos crudos en una radiografía técnica precisa.
+
+### Objetivos Estratégicos
+* **🔍 Análisis de ADN Técnico:** Desglosar el stack real de un usuario basándose en la complejidad de sus repositorios, no solo en sus lenguajes más usados.
+* **💎 The Hidden Gem (La Joya Oculta):** Algoritmo diseñado para identificar repositorios con alto valor técnico o arquitectónico que suelen quedar enterrados por proyectos menores.
+* **📊 Visualización de Alto Impacto:** Sustituir tablas aburridas por un **Radar de Competencias** y **Timelines de Evolución** interactivos, permitiendo una toma de decisiones basada en datos (Data-Driven).
+* **🚀 Optimización de Reclutamiento:** Reducir el tiempo de revisión de perfiles técnicos mediante un resumen ejecutivo generado por inteligencia analítica.
+
+> **Propósito Final:** Empoderar a la comunidad dev y a los Tech-Recruiters con una herramienta de auditoría técnica que premie la calidad, la consistencia y la arquitectura sobre el simple volumen de código.
+
+---
+
 ## 🏗️ Arquitectura y Diseño
 El servidor está diseñado para ser agnóstico a la infraestructura, centrando su valor en el **Dominio**.
 
