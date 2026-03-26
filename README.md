@@ -36,7 +36,7 @@
 
 </div>
 
-<br>
+<hr>
 <h2>🎯 Objetivo y Propósito</h2>
 
 <p align="justify">
@@ -69,34 +69,34 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>Core Framework</b></td>
-      <td>Vue 3 (Composition API)</td>
-      <td>Reactividad eficiente y componentes desacoplados.</td>
+      <td><b>Framework</b></td>
+      <td>NestJS</td>
+      <td>Arquitectura modular, mantenible y altamente testeable.</td>
     </tr>
     <tr>
-      <td><b>Build Tool</b></td>
-      <td>Vite</td>
-      <td>HMR instantáneo para desarrollo ágil.</td>
+      <td><b>Language</b></td>
+      <td>TypeScript</td>
+      <td>Contratos de interfaces robustos entre capas (Domain/Infra).</td>
     </tr>
     <tr>
-      <td><b>UI Library</b></td>
-      <td>PrimeVue</td>
-      <td>Componentes de alta gama con personalización profunda.</td>
+      <td><b>External SDK</b></td>
+      <td>Octokit (GitHub)</td>
+      <td>Comunicación fluida y tipada con la API oficial de GitHub.</td>
     </tr>
     <tr>
-      <td><b>State Management</b></td>
-      <td>Pinia</td>
-      <td>Almacenamiento centralizado y modular del estado.</td>
+      <td><b>Validation</b></td>
+      <td>Zod</td>
+      <td>Sanitización de DTOs y garantía de integridad de datos.</td>
     </tr>
     <tr>
-      <td><b>Data Viz</b></td>
-      <td>Apache ECharts</td>
-      <td>Renderizado de radares de ADN y mapas de calor.</td>
+      <td><b>Caching</b></td>
+      <td>Redis / In-Memory</td>
+      <td>Mitigación de Rate-Limits y optimización de latencia.</td>
     </tr>
     <tr>
-      <td><b>Styles</b></td>
-      <td>SCSS + Neon Theme</td>
-      <td>Arquitectura de estilos para la estética Hacker-Dark.</td>
+      <td><b>Testing</b></td>
+      <td>Vitest</td>
+      <td>Pruebas unitarias de algoritmos y lógica de dominio.</td>
     </tr>
   </tbody>
 </table>
