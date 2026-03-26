@@ -36,24 +36,71 @@
 
 </div>
 
----
+<br>
+<h2>🎯 Objetivo y Propósito</h2>
 
-## 🎯 Objetivo y Propósito
+<p align="justify">
+  En un ecosistema saturado de métricas vanidosas, los reclutadores y líderes técnicos a menudo pierden de vista el <b>impacto real</b> y la <b>calidad técnica</b> de un desarrollador. <b>Git Data</b> nace para resolver la opacidad en el análisis de perfiles de GitHub, transformando datos crudos en una radiografía técnica precisa.
+</p>
 
-### El "Por Qué" de Git Data
-En un ecosistema saturado de métricas vanidosas (como el número de contribuciones o "streaks"), los reclutadores y líderes técnicos a menudo pierden de vista el **impacto real** y la **calidad técnica** de un desarrollador. 
+<ul>
+  <li><b>🔍 Análisis de ADN Técnico:</b> Desglosar el stack real basándose en la complejidad de los repositorios.</li>
+  <li><b>💎 The Hidden Gem:</b> Algoritmo para identificar proyectos con alto valor arquitectónico oculto.</li>
+  <li><b>📊 Visualización de Alto Impacto:</b> Radar de competencias y timelines interactivos para decisiones <i>Data-Driven</i>.</li>
+  <li><b>🚀 Optimización de Reclutamiento:</b> Reducción drástica en los tiempos de revisión de perfiles técnicos.</li>
+</ul>
 
-**Git Data** nace para resolver la opacidad en el análisis de perfiles de GitHub, transformando datos crudos en una radiografía técnica precisa.
+<blockquote>
+  <p>
+    <i>"Empoderar a la comunidad dev con una herramienta de auditoría que premie la calidad y la arquitectura sobre el simple volumen de código."</i>
+  </p>
+</blockquote>
 
-### Objetivos Estratégicos
-* **🔍 Análisis de ADN Técnico:** Desglosar el stack real de un usuario basándose en la complejidad de sus repositorios, no solo en sus lenguajes más usados.
-* **💎 The Hidden Gem (La Joya Oculta):** Algoritmo diseñado para identificar repositorios con alto valor técnico o arquitectónico que suelen quedar enterrados por proyectos menores.
-* **📊 Visualización de Alto Impacto:** Sustituir tablas aburridas por un **Radar de Competencias** y **Timelines de Evolución** interactivos, permitiendo una toma de decisiones basada en datos (Data-Driven).
-* **🚀 Optimización de Reclutamiento:** Reducir el tiempo de revisión de perfiles técnicos mediante un resumen ejecutivo generado por inteligencia analítica.
+<hr>
+<h2>🛠️ Stack Tecnológico</h2>
 
-> **Propósito Final:** Empoderar a la comunidad dev y a los Tech-Recruiters con una herramienta de auditoría técnica que premie la calidad, la consistencia y la arquitectura sobre el simple volumen de código.
-
----
+<table>
+  <thead>
+    <tr style="background-color: #1a1a1a;">
+      <th>Categoría</th>
+      <th>Tecnología</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Core Framework</b></td>
+      <td>Vue 3 (Composition API)</td>
+      <td>Reactividad eficiente y componentes desacoplados.</td>
+    </tr>
+    <tr>
+      <td><b>Build Tool</b></td>
+      <td>Vite</td>
+      <td>HMR instantáneo para desarrollo ágil.</td>
+    </tr>
+    <tr>
+      <td><b>UI Library</b></td>
+      <td>PrimeVue</td>
+      <td>Componentes de alta gama con personalización profunda.</td>
+    </tr>
+    <tr>
+      <td><b>State Management</b></td>
+      <td>Pinia</td>
+      <td>Almacenamiento centralizado y modular del estado.</td>
+    </tr>
+    <tr>
+      <td><b>Data Viz</b></td>
+      <td>Apache ECharts</td>
+      <td>Renderizado de radares de ADN y mapas de calor.</td>
+    </tr>
+    <tr>
+      <td><b>Styles</b></td>
+      <td>SCSS + Neon Theme</td>
+      <td>Arquitectura de estilos para la estética Hacker-Dark.</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 ## 🏗️ Arquitectura y Diseño
 El servidor está diseñado para ser agnóstico a la infraestructura, centrando su valor en el **Dominio**.
