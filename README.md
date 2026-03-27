@@ -33,6 +33,10 @@
 </p>
 </div>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="GPLv3 License"/>
+</div>
+
 <hr>
 <h2>🎯 Objetivo y Propósito</h2>
 
