@@ -130,6 +130,23 @@ src/
 ├── shared/          # DTOs, Decoradores, Excepciones Globales
 └── main.ts          # Punto de entrada de la aplicación
 </pre>
+
+<hr />
+
+<h3>🛠️ Skills Especializadas</h3>
+<p>Ubicadas en <code>.agent/skills/</code>, son guías técnicas que definen cómo se deben construir las diferentes partes del sistema:</p>
+
+<ul>
+    <li><b>🏗️ nest:</b> Blueprint obligatorio para crear módulos, controladores y servicios siguiendo el estándar de GitData.</li>
+    <li><b>🧹 code-quality:</b> Guías de Clean Code, SOLID y política de "No Comments" aplicada estrictamente al Engine.</li>
+    <li><b>🏷️ naming-conventions:</b> Estándares semánticos para sufijos de archivos (<code>.service.ts</code>, <code>.controller.ts</code>) y clases.</li>
+    <li><b>🧪 test-enforcement:</b> Regla mandatoria que exige un archivo <code>.spec.ts</code> por cada archivo de lógica de negocio.</li>
+    <li><b>🔄 readme-auto-sync:</b> Automatización para mantener la estructura de capas y el estado de los tests siempre actualizados.</li>
+    <li><b>🟢 node:</b> Mejores prácticas para el runtime de Node.js, manejo de asincronía y variables de entorno.</li>
+    <li><b>🚫 no-browser:</b> Prohibición estricta del uso de herramientas de navegación para garantizar la seguridad del entorno.</li>
+    <li><b>🌍 global-skills:</b> Directorio maestro que indexa todas las habilidades de arquitectura disponibles en el proyecto.</li>
+</ul>
+
 <hr />
 
 <h2>👥 Equipo</h2>
