@@ -120,7 +120,7 @@
 
 <hr />
 
-<h2>📦 Estructura de Capas</h2>
+<h2>📦 Estructura del Proyecto</h2>
 
 <pre>
 src/
