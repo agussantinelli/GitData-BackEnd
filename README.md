@@ -133,7 +133,7 @@ src/
 
 <hr />
 
-<h3>🛠️ Skills Especializadas</h3>
+<h2>🛠️ Skills Especializadas</h2>
 <p>Ubicadas en <code>.agent/skills/</code>, son guías técnicas que definen cómo se deben construir las diferentes partes del sistema:</p>
 
 <ul>
