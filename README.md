@@ -128,3 +128,42 @@ src/
 ├── infrastructure/  # Controladores, Módulos Externos, API GitHub
 ├── shared/          # DTOs, Decoradores, Excepciones Globales
 └── main.ts          # Punto de entrada de la aplicación
+```
+<hr />
+
+<h2 align="left">⚖️ Licencia</h2>
+
+<p align="left">
+  Este proyecto está bajo la <b>Licencia GNU General Public License v3.0 (GPLv3)</b>. Puedes consultar los términos legales completos en el archivo 
+  <a href="LICENSE"><code>LICENSE</code></a> incluido en la raíz de este repositorio.
+</p>
+
+<p align="left">
+  <i>
+    🤝 <b>Compromiso Copyleft:</b> La GPLv3 permite el uso, estudio, modificación y distribución de este software. Sin embargo, cualquier obra derivada o modificación distribuida debe ser publicada bajo esta misma licencia, garantizando que el software permanezca libre y accesible para todos.
+  </i>
+</p>
+<hr />
+
+<h2 align="left">🤝 Contribución</h2>
+
+<p align="left">
+  ¡Agradecemos enormemente tu interés en contribuir a este proyecto! Dado que este software se distribuye bajo la <b>Licencia GNU General Public License v3.0 (GPLv3)</b>, cualquier contribución que realices debe ser compatible con esta misma licencia.
+</p>
+
+<p align="left">
+  Para contribuir:
+  <ul>
+    <li>Haz un <a href="https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-with-pull-requests/creating-a-pull-request-from-a-fork" target="_blank">fork de este repositorio</a>.</li>
+    <li>Crea una nueva rama para tu funcionalidad (<code>git checkout -b feature/nueva-funcionalidad</code>).</li>
+    <li>Realiza tus cambios.</li>
+    <li>Envía un <a href="https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-with-pull-requests/creating-a-pull-request" target="_blank">Pull Request</a> detallando tus modificaciones.</li>
+  </ul>
+</p>
+
+<p align="left">
+  ¡Gracias por ser parte! 🙌✨
+</p>
+
+<hr>
+<p align="center">Desarrollado con ❤️ y mucho 🧉 para la comunidad de GitHub</p>
