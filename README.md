@@ -111,11 +111,12 @@
 
 <hr />
 
-<h2>🚀 Características Core</h2>
+<h2>🚀 Características Principales</h2>
 <ul>
-  <li><b>Procesamiento Big O Optimizado:</b> Algoritmos de curado de JSON para manejar repositorios extensos sin latencia.</li>
-  <li><b>Estrategia de Caché:</b> Mitigación de límites de la API de GitHub mediante capas de caché temporales.</li>
-  <li><b>Documentación Proactiva:</b> Swagger UI integrado para pruebas rápidas de los endpoints.</li>
+  <li><b>⚡ Algoritmos Big O:</b> Procesamiento de JSONs masivos de la API de GitHub optimizado para baja latencia.</li>
+  <li><b>🛡️ Resiliencia de API:</b> Estrategia multi-capa de caché (Redis + In-Memory) para mitigar Rate Limits.</li>
+  <li><b>📊 Engine de Análisis:</b> Categorización inteligente de perfiles y detección automática de especialización técnica.</li>
+  <li><b>📝 Docs Proactivas:</b> Swagger/OpenAPI integrado para introspección y testing inmediato de endpoints.</li>
 </ul>
 
 <hr />
