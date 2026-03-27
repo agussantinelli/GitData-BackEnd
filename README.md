@@ -31,9 +31,6 @@
   <img src="https://img.shields.io/badge/Swagger-API%20Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger Badge"/>
   <img src="https://img.shields.io/badge/Redis-Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis Badge"/>
 </p>
-
-**GitData-BackEnd** es el motor analítico de Git Data. Construido bajo los principios de **Clean Architecture**, procesa y cura datos masivos de la API de GitHub para generar inteligencia sobre perfiles técnicos.
-
 </div>
 
 <hr>
