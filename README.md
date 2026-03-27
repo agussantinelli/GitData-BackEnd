@@ -37,19 +37,19 @@
 <h2>🎯 Objetivo y Propósito</h2>
 
 <p align="justify">
-  En un ecosistema saturado de métricas vanidosas, los reclutadores y líderes técnicos a menudo pierden de vista el <b>impacto real</b> y la <b>calidad técnica</b> de un desarrollador. <b>Git Data</b> nace para resolver la opacidad en el análisis de perfiles de GitHub, transformando datos crudos en una radiografía técnica precisa.
+  <b>GitData</b> no es solo un visualizador de repositorios; es el motor analítico detrás de la <b>"Ficha Técnica"</b> definitiva del desarrollador. En un mercado saturado de métricas superficiales, nuestro propósito es transformar el historial de GitHub en una narrativa técnica coherente, permitiendo que el talento real brille a través de datos precisos y curados.
 </p>
 
 <ul>
-  <li><b>🔍 Análisis de ADN Técnico:</b> Desglosar el stack real basándose en la complejidad de los repositorios.</li>
-  <li><b>💎 The Hidden Gem:</b> Algoritmo para identificar proyectos con alto valor arquitectónico oculto.</li>
-  <li><b>📊 Visualización de Alto Impacto:</b> Radar de competencias y timelines interactivos para decisiones <i>Data-Driven</i>.</li>
-  <li><b>🚀 Optimización de Reclutamiento:</b> Reducción drástica en los tiempos de revisión de perfiles técnicos.</li>
+  <li><b>🧠 Motor de ADN Técnico:</b> Algoritmos avanzados para desglosar la verdadera esencia del stack tecnológico (Frontend vs Backend vs Polyglot).</li>
+  <li><b>🔍 Curaduría de "Proyectos Joya":</b> Identificación inteligente de repositorios destacados mediante análisis de impacto y calidad arquitectónica.</li>
+  <li><b>📈 Reconstrucción de Timeline:</b> Extracción de hitos productivos para visualizar la evolución tecnológica a lo largo de los años.</li>
+  <li><b>📡 API de Inteligencia de Perfil:</b> Provee datos estructurados para el Modo Reclutador y Modo Developer del cliente.</li>
 </ul>
 
 <blockquote>
   <p>
-    <i>"Empoderar a la comunidad dev con una herramienta de auditoría que premie la calidad y la arquitectura sobre el simple volumen de código."</i>
+    <i>"Nuestra misión es proveer la infraestructura de datos necesaria para que cada desarrollador pueda contar su historia técnica con la profundidad que merece."</i>
   </p>
 </blockquote>
 
