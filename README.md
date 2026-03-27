@@ -99,33 +99,37 @@
 </table>
 <hr>
 
-## 🏗️ Arquitectura y Diseño
-El servidor está diseñado para ser agnóstico a la infraestructura, centrando su valor en el **Dominio**.
+<h2>🏗️ Arquitectura y Diseño</h2>
+<p>El servidor está diseñado para ser agnóstico a la infraestructura, centrando su valor en el <b>Dominio</b>.</p>
 
-* **Entidades/Dominio:** Lógica pura para el cálculo del "Radar de ADN" y "The Hidden Gem".
-* **Casos de Uso:** Orquestación de servicios (ej. `AnalyzeUserProfile`).
-* **Infraestructura:** Adaptadores para Octokit (GitHub API), caché de datos y persistencia.
-* **Seguridad:** Implementación de Rate Limiting y validación estricta con Zod.
+<ul>
+  <li><b>Entidades/Dominio:</b> Lógica pura para el cálculo del "Radar de ADN" y "The Hidden Gem".</li>
+  <li><b>Casos de Uso:</b> Orquestación de servicios (ej. <code>AnalyzeUserProfile</code>).</li>
+  <li><b>Infraestructura:</b> Adaptadores para Octokit (GitHub API), caché de datos y persistencia.</li>
+  <li><b>Seguridad:</b> Implementación de Rate Limiting y validación estricta con Zod.</li>
+</ul>
 
----
+<hr />
 
-## 🚀 Características Core
-* **Procesamiento Big O Optimizado:** Algoritmos de curado de JSON para manejar repositorios extensos sin latencia.
-* **Estrategia de Caché:** Mitigación de límites de la API de GitHub mediante capas de caché temporales.
-* **Documentación Proactiva:** Swagger UI integrado para pruebas rápidas de los endpoints.
+<h2>🚀 Características Core</h2>
+<ul>
+  <li><b>Procesamiento Big O Optimizado:</b> Algoritmos de curado de JSON para manejar repositorios extensos sin latencia.</li>
+  <li><b>Estrategia de Caché:</b> Mitigación de límites de la API de GitHub mediante capas de caché temporales.</li>
+  <li><b>Documentación Proactiva:</b> Swagger UI integrado para pruebas rápidas de los endpoints.</li>
+</ul>
 
----
+<hr />
 
-## 📦 Estructura de Capas
+<h2>📦 Estructura de Capas</h2>
 
-```text
+<pre>
 src/
 ├── domain/          # Lógica de Negocio Pura (Entities, Value Objects)
 ├── use-cases/       # Servicios de Aplicación (Lógica de Orquestación)
 ├── infrastructure/  # Controladores, Módulos Externos, API GitHub
 ├── shared/          # DTOs, Decoradores, Excepciones Globales
 └── main.ts          # Punto de entrada de la aplicación
-```
+</pre>
 <hr />
 
 <h2 align="left">⚖️ Licencia</h2>
