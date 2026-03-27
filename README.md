@@ -132,6 +132,15 @@ src/
 </pre>
 <hr />
 
+<h2>👥 Equipo</h2>
+    <a href="https://github.com/agussantinelli" target="_blank">
+        <img src="https://img.shields.io/badge/👤%20Agustín%20Santinelli-agussantinelli-000000?style=for-the-badge&logo=github&logoColor=white" alt="Agus"/>
+    </a>
+    <a href="https://github.com/martin-ratti" target="_blank">
+        <img src="https://img.shields.io/badge/👤%20Martín%20Ratti-martin--ratti-000000?style=for-the-badge&logo=github&logoColor=white" alt="Martin"/>
+    </a>
+    
+<hr/>
 <h2 align="left">⚖️ Licencia</h2>
 
 <p align="left">
