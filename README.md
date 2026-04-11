@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">🛡️ Git Data – BackEnd</h1>
+<h1 align="center">🛡️ Git Data – API</h1>
 
 <p align="center">
   <a href="https://github.com/agussantinelli/GitData-FrontEnd" target="_blank" style="text-decoration: none;">
